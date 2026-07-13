@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "fixture-pulseboard-decision-briefs",
+  "mode": "fixture",
+  "campaignType": "feature-announcement",
+  "output": {"width": 1080, "height": 1920, "fps": 30, "durationSeconds": 60},
+  "feature": {
+    "name": "Decision Briefs",
+    "factualDescription": "Decision Briefs groups related customer evidence into a reviewable summary with linked source signals.",
+    "featurePageUrl": "https://pulseboard.example/features/decision-briefs"
+  },
+  "brand": {
+    "name": "Northstar Labs",
+    "product": "Pulseboard",
+    "tagline": "From scattered signals to one clear next move.",
+    "targetAudience": "Product-led SaaS teams",
+    "palette": ["#7557ff", "#27e0c1", "#ffcc66"]
+  },
+  "assets": [
+    {"id": "pulseboard-mark", "path": "fixtures/pulseboard-logo.svg", "kind": "logo", "provenance": "fixture", "alt": "Pulseboard orbit mark"},
+    {"id": "pulseboard-dashboard", "path": "fixtures/pulseboard-dashboard.svg", "kind": "product-ui", "provenance": "fixture", "alt": "Pulseboard product dashboard"}
+  ],
+  "narration": {
+    "audioPath": "fixtures/feature-announcement-60-narration.wav",
+    "provenance": "fixture",
+    "provider": "fixture",
+    "voice": "SAM synthetic fixture voice",
+    "required": true
+  },
+  "music": {
+    "audioPath": "fixtures/feature-announcement-60-music.wav",
+    "provenance": "licensed",
+    "provider": "fixture",
+    "license": "CC0-1.0",
+    "fallback": true,
+    "provenancePath": "fixtures/pulseboard-music.provenance.json"
+  },
+  "captions": [
+    {"startFrame": 18, "endFrame": 150, "text": "Roadmap decisions need more than a loud request."},
+    {"startFrame": 190, "endFrame": 320, "text": "They need evidence your whole team can review."},
+    {"startFrame": 375, "endFrame": 510, "text": "Introducing Decision Briefs in Pulseboard."},
+    {"startFrame": 555, "endFrame": 690, "text": "Related customer signals gather automatically."},
+    {"startFrame": 735, "endFrame": 870, "text": "Every summary stays linked to its source."},
+    {"startFrame": 915, "endFrame": 1050, "text": "See themes, affected accounts, and impact."},
+    {"startFrame": 1095, "endFrame": 1230, "text": "Review the evidence before priorities change."},
+    {"startFrame": 1275, "endFrame": 1410, "text": "Share one decision-ready customer narrative."},
+    {"startFrame": 1455, "endFrame": 1590, "text": "Move from backlog debate to a clear next step."},
+    {"startFrame": 1635, "endFrame": 1780, "text": "Explore Decision Briefs at pulseboard.example."}
+  ],
+  "scenes": [
+    {
+      "id": "decision-gap",
+      "startFrame": 0,
+      "durationInFrames": 180,
+      "eyebrow": "ROADMAP REALITY",
+      "headline": "A request is not a decision.",
+      "body": "Strong priorities begin with evidence the whole team can inspect.",
+      "accent": "#ffcc66",
+      "visual": "signal",
+      "narration": "Roadmap decisions need more than a loud request. They need evidence your whole team can review."
+    },
+    {
+      "id": "feature-reveal",
+      "startFrame": 180,
+      "durationInFrames": 180,
+      "eyebrow": "NEW IN PULSEBOARD",
+      "headline": "Meet Decision Briefs.",
+      "body": "A focused, reviewable summary for every important customer theme.",
+      "accent": "#7557ff",
+      "visual": "workflow",
+      "narration": "Introducing Decision Briefs in Pulseboard, a focused summary for every important customer theme."
+    },
+    {
+      "id": "collect",
+      "startFrame": 360,
+      "durationInFrames": 180,
+      "eyebrow": "RELATED SIGNALS",
+      "headline": "Evidence gathers together.",
+      "body": "Related requests, calls, and support themes become one coherent view.",
+      "accent": "#27e0c1",
+      "visual": "collaboration",
+      "narration": "Related customer signals gather automatically into one coherent view."
+    },
+    {
+      "id": "trace",
+      "startFrame": 540,
+      "durationInFrames": 180,
+      "eyebrow": "TRACEABLE BY DESIGN",
+      "headline": "Keep every source in reach.",
+      "body": "Summaries remain linked to the customer evidence behind them.",
+      "accent": "#ff6fae",
+      "visual": "insight",
+      "narration": "Every summary stays linked to its source, so context is never hidden."
+    },
+    {
+      "id": "patterns",
+      "startFrame": 720,
+      "durationInFrames": 180,
+      "eyebrow": "THEME AND IMPACT",
+      "headline": "See what the pattern means.",
+      "body": "Understand recurring themes, affected accounts, and potential impact.",
+      "accent": "#27e0c1",
+      "visual": "signal",
+      "narration": "See recurring themes, affected accounts, and potential impact in one place."
+    },
+    {
+      "id": "review",
+      "startFrame": 900,
+      "durationInFrames": 180,
+      "eyebrow": "HUMAN REVIEW",
+      "headline": "Inspect before you prioritize.",
+      "body": "Give product leaders a clear evidence trail before the roadmap changes.",
+      "accent": "#7557ff",
+      "visual": "workflow",
+      "narration": "Review the evidence before priorities change, with a clear trail for product leaders."
+    },
+    {
+      "id": "align",
+      "startFrame": 1080,
+      "durationInFrames": 180,
+      "eyebrow": "ONE SHARED NARRATIVE",
+      "headline": "Align around customer truth.",
+      "body": "Share the same decision-ready brief across product, success, and sales.",
+      "accent": "#ffcc66",
+      "visual": "collaboration",
+      "narration": "Share one decision-ready customer narrative across product, success, and sales."
+    },
+    {
+      "id": "decide",
+      "startFrame": 1260,
+      "durationInFrames": 180,
+      "eyebrow": "FROM SIGNAL TO CHOICE",
+      "headline": "Make the next step clear.",
+      "body": "Turn scattered feedback into a grounded direction the team understands.",
+      "accent": "#27e0c1",
+      "visual": "insight",
+      "narration": "Move from backlog debate to a clear next step grounded in customer evidence."
+    },
+    {
+      "id": "momentum",
+      "startFrame": 1440,
+      "durationInFrames": 180,
+      "eyebrow": "BUILD WITH CONTEXT",
+      "headline": "Clarity creates momentum.",
+      "body": "Spend less time reconstructing context and more time acting on it.",
+      "accent": "#ff6fae",
+      "visual": "signal",
+      "narration": "Spend less time reconstructing context and more time acting on it."
+    },
+    {
+      "id": "feature-cta",
+      "startFrame": 1620,
+      "durationInFrames": 180,
+      "eyebrow": "AVAILABLE IN PULSEBOARD",
+      "headline": "Explore Decision Briefs.",
+      "body": "Bring reviewable evidence to your next product decision.",
+      "accent": "#27e0c1",
+      "visual": "cta",
+      "narration": "Explore Decision Briefs at Pulseboard dot example and bring reviewable evidence to your next product decision."
+    }
+  ],
+  "cta": {"label": "EXPLORE DECISION BRIEFS", "url": "https://pulseboard.example/features/decision-briefs"}
+}

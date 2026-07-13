@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "fixture-pulseboard-launch",
+  "mode": "fixture",
+  "campaignType": "product-launch",
+  "output": {"width": 1080, "height": 1920, "fps": 30, "durationSeconds": 30},
+  "brand": {
+    "name": "Northstar Labs",
+    "product": "Pulseboard",
+    "tagline": "From scattered signals to one clear next move.",
+    "targetAudience": "Product-led SaaS teams",
+    "palette": ["#7557ff", "#27e0c1", "#ffcc66"]
+  },
+  "assets": [
+    {"id": "pulseboard-mark", "path": "fixtures/pulseboard-logo.svg", "kind": "logo", "provenance": "fixture", "alt": "Pulseboard orbit mark"},
+    {"id": "pulseboard-dashboard", "path": "fixtures/pulseboard-dashboard.svg", "kind": "product-ui", "provenance": "fixture", "alt": "Pulseboard product dashboard"}
+  ],
+  "narration": {
+    "audioPath": "fixtures/pulseboard-narration.wav",
+    "provenance": "fixture",
+    "provider": "fixture",
+    "voice": "SAM synthetic fixture voice",
+    "required": true
+  },
+  "music": {
+    "audioPath": "fixtures/pulseboard-music.wav",
+    "provenance": "licensed",
+    "provider": "fixture",
+    "license": "CC0-1.0"
+  },
+  "captions": [
+    {"startFrame": 18, "endFrame": 76, "text": "Customers are already telling you what comes next."},
+    {"startFrame": 82, "endFrame": 145, "text": "The signal is just buried in the noise."},
+    {"startFrame": 166, "endFrame": 235, "text": "Meet Pulseboard, the feedback command center"},
+    {"startFrame": 240, "endFrame": 322, "text": "built for product-led SaaS teams."},
+    {"startFrame": 352, "endFrame": 421, "text": "Bring every request, call, and support theme"},
+    {"startFrame": 427, "endFrame": 510, "text": "into one live customer narrative."},
+    {"startFrame": 538, "endFrame": 607, "text": "Pulseboard connects patterns to revenue impact"},
+    {"startFrame": 612, "endFrame": 690, "text": "so the right next move becomes obvious."},
+    {"startFrame": 720, "endFrame": 784, "text": "Less backlog debate. More confident building."},
+    {"startFrame": 796, "endFrame": 875, "text": "Start your product signal at pulseboard.example."}
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "startFrame": 0,
+      "durationInFrames": 150,
+      "eyebrow": "THE SIGNAL IS THERE",
+      "headline": "What should you build next?",
+      "body": "Feedback is everywhere. Clarity shouldn't be hard to find.",
+      "accent": "#ffcc66",
+      "visual": "signal",
+      "narration": "Your customers are already telling you what comes next. The signal is just buried in the noise."
+    },
+    {
+      "id": "reveal",
+      "startFrame": 150,
+      "durationInFrames": 180,
+      "eyebrow": "INTRODUCING",
+      "headline": "Pulseboard",
+      "body": "The feedback command center built for product-led SaaS teams.",
+      "accent": "#7557ff",
+      "visual": "workflow",
+      "narration": "Meet Pulseboard, the feedback command center built for product-led SaaS teams."
+    },
+    {
+      "id": "unify",
+      "startFrame": 330,
+      "durationInFrames": 180,
+      "eyebrow": "ONE CUSTOMER NARRATIVE",
+      "headline": "Every voice. Finally connected.",
+      "body": "Requests, calls, and support themes flow into a single source of product truth.",
+      "accent": "#27e0c1",
+      "visual": "collaboration",
+      "narration": "Bring every request, call, and support theme into one live customer narrative."
+    },
+    {
+      "id": "impact",
+      "startFrame": 510,
+      "durationInFrames": 180,
+      "eyebrow": "PRIORITY, WITH PROOF",
+      "headline": "See the move that matters.",
+      "body": "Connect patterns to revenue impact and give every roadmap decision a reason.",
+      "accent": "#ff6fae",
+      "visual": "insight",
+      "narration": "Pulseboard connects patterns to revenue impact, so the right next move becomes obvious."
+    },
+    {
+      "id": "close",
+      "startFrame": 690,
+      "durationInFrames": 210,
+      "eyebrow": "BUILD WITH CONFIDENCE",
+      "headline": "Turn signal into momentum.",
+      "body": "Less backlog debate. More confident building.",
+      "accent": "#27e0c1",
+      "visual": "cta",
+      "narration": "Less backlog debate. More confident building. Start your product signal at Pulseboard dot example."
+    }
+  ],
+  "cta": {"label": "START YOUR SIGNAL", "url": "https://pulseboard.example"}
+}

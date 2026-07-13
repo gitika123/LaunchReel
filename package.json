@@ -1,0 +1,62 @@
+{
+  "name": "launchreel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "assets:generate": "tsx scripts/generate-fixture-audio.ts",
+    "studio": "remotion studio src/index.ts",
+    "render:fixture": "npm run assets:generate && remotion render src/index.ts LaunchReelProductLaunch output/product-launch-fixture.mp4 --props=public/fixtures/product-launch-manifest.json --codec=h264 --audio-codec=aac --pixel-format=yuv420p --crf=18 --log=verbose",
+    "validate:fixture-60": "tsx scripts/validate-fixture-60.ts",
+    "assets:generate:fixture-60": "tsx scripts/generate-fixture-audio.ts public/fixtures/feature-announcement-60-manifest.json",
+    "render:fixture-60": "npm run validate:fixture-60 && npm run assets:generate:fixture-60 && remotion render src/index.ts LaunchReelProductLaunch output/feature-announcement-fixture-60.mp4 --props=public/fixtures/feature-announcement-60-manifest.json --codec=h264 --audio-codec=aac --pixel-format=yuv420p --crf=18 --log=verbose",
+    "verify:fixture-60": "npm run validate:fixture-60 && tsx scripts/verify-render.ts output/feature-announcement-fixture-60.mp4 public/fixtures/feature-announcement-60-manifest.json",
+    "verify:render": "tsx scripts/verify-render.ts output/product-launch-fixture.mp4",
+    "render:verify": "npm run render:fixture && npm run verify:render",
+    "rehearse:fixture": "tsx scripts/rehearse-campaign.ts --mode fixture",
+    "rehearse:live": "tsx scripts/rehearse-campaign.ts --mode live",
+    "preflight:live": "tsx scripts/preflight-live.ts",
+    "qa:campaign": "tsx scripts/qa-campaign.ts",
+    "verify:band-wave1": "tsx scripts/verify-band-wave1.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.479",
+    "@remotion/renderer": "4.0.479",
+    "fflate": "0.8.2",
+    "next": "^15.5.20",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.479",
+    "sam-js": "0.3.1",
+    "zod": "4.3.6"
+  },
+  "overrides": {
+    "postcss": "8.5.18"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.1",
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.2.0",
+    "@testing-library/user-event": "14.6.1",
+    "@types/node": "22.13.14",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "15.5.20",
+    "jsdom": "26.0.0",
+    "tsx": "4.20.3",
+    "typescript": "5.8.2",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

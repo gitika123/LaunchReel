@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" role="img" aria-label="Pulseboard product dashboard">
+  <defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f1d43"/><stop offset="1" stop-color="#111126"/></linearGradient><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7557ff"/><stop offset="1" stop-color="#27e0c1"/></linearGradient></defs>
+  <rect width="900" height="1120" rx="52" fill="#0d0c20"/>
+  <rect x="24" y="24" width="852" height="1072" rx="38" fill="url(#panel)" stroke="#383465" stroke-width="2"/>
+  <circle cx="76" cy="76" r="12" fill="#ff6fae"/><circle cx="112" cy="76" r="12" fill="#ffcc66"/><circle cx="148" cy="76" r="12" fill="#27e0c1"/>
+  <rect x="60" y="132" width="180" height="920" rx="24" fill="#15142e"/><rect x="86" y="178" width="128" height="20" rx="10" fill="#7557ff"/><rect x="86" y="240" width="92" height="14" rx="7" fill="#5d5983"/><rect x="86" y="286" width="112" height="14" rx="7" fill="#5d5983"/><rect x="86" y="332" width="78" height="14" rx="7" fill="#5d5983"/>
+  <text x="284" y="184" fill="#f5f3ff" font-family="Arial, sans-serif" font-size="40" font-weight="700">Signal overview</text>
+  <text x="284" y="226" fill="#9490b9" font-family="Arial, sans-serif" font-size="19">Customer themes connected to impact</text>
+  <rect x="284" y="270" width="552" height="252" rx="28" fill="#171630" stroke="#3a3667"/>
+  <text x="322" y="322" fill="#aaa6cb" font-family="Arial, sans-serif" font-size="18">TOP OPPORTUNITY</text><text x="322" y="372" fill="#fff" font-family="Arial, sans-serif" font-size="31" font-weight="700">Team analytics</text>
+  <rect x="322" y="416" width="450" height="22" rx="11" fill="#29264a"/><rect x="322" y="416" width="388" height="22" rx="11" fill="url(#bar)"/><text x="322" y="478" fill="#27e0c1" font-family="Arial, sans-serif" font-size="24" font-weight="700">86 signal score</text>
+  <rect x="284" y="554" width="266" height="204" rx="28" fill="#171630" stroke="#3a3667"/><text x="320" y="610" fill="#aaa6cb" font-family="Arial, sans-serif" font-size="17">MENTIONS</text><text x="320" y="674" fill="#fff" font-family="Arial, sans-serif" font-size="52" font-weight="700">1,284</text><text x="320" y="716" fill="#27e0c1" font-family="Arial, sans-serif" font-size="19">↑ 24% this month</text>
+  <rect x="570" y="554" width="266" height="204" rx="28" fill="#171630" stroke="#3a3667"/><text x="606" y="610" fill="#aaa6cb" font-family="Arial, sans-serif" font-size="17">ARR IMPACT</text><text x="606" y="674" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="700">$420k</text><text x="606" y="716" fill="#ffcc66" font-family="Arial, sans-serif" font-size="19">38 accounts</text>
+  <rect x="284" y="790" width="552" height="230" rx="28" fill="#171630" stroke="#3a3667"/><text x="322" y="846" fill="#aaa6cb" font-family="Arial, sans-serif" font-size="17">LIVE SIGNALS</text>
+  <circle cx="334" cy="904" r="10" fill="#7557ff"/><rect x="360" y="892" width="318" height="18" rx="9" fill="#625e83"/><circle cx="334" cy="954" r="10" fill="#27e0c1"/><rect x="360" y="942" width="402" height="18" rx="9" fill="#625e83"/>
+</svg>
