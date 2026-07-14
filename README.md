@@ -2,9 +2,15 @@
 
 **An AI creative company for SaaS launch video.**
 
-Give LaunchReel a product website and a target audience. Four specialist Agents research the market, choose the idea, produce a vertical Campaign film, and prove every claim before anything ships.
+Give LaunchReel a product website and a target audience. Specialist Agents ingest the source, research the market, choose the concept, render the film, review the cut, and deliver a proven Campaign package.
 
 Not a chatbot. Not a black box. A visible studio with human approval gates, citations, and provenance.
+
+## Demo
+
+Watch the full product walkthrough:
+
+[LaunchReel demo video](https://drive.google.com/file/d/1glMCnJk_5XBviBn6COi-o-0-cVrSgh-A/view?usp=sharing)
 
 ## Output
 
@@ -17,14 +23,18 @@ A reviewable go-to-market Campaign:
 
 ## The company desk
 
-| Agent | Role |
-| --- | --- |
-| **Brand & Market** | Find product truth and audience signal |
-| **Creative Director** | Choose the concept and creative plan |
-| **Video Producer** | Turn an approved storyboard into the cut |
-| **Creative Critic** | Enforce objective quality before packaging |
+The production line every Campaign runs through:
 
-Evidence in. Campaign out.
+| Desk | Stage | Role |
+| --- | --- | --- |
+| **Source** | Ingest | Read the Source Website and lock first-party product truth |
+| **Analyst** | Research | Research the market and retain cited evidence |
+| **Director** | Concept | Choose the concept and creative plan |
+| **Producer** | Render | Produce narration, captions, motion, and the vertical cut |
+| **Critic** | Review | Enforce objective quality before anything ships |
+| **Package** | Deliver | Deliver the complete Campaign with provenance |
+
+Human approvals gate the consequential cuts. Evidence stays separate from Source Website facts.
 
 ## Surfaces
 
@@ -65,4 +75,4 @@ This produces a verified Pulseboard fixture MP4 under `output/`.
 
 ## Stack
 
-Next.js · React · Remotion · Zod · opt-in live providers for research, speech, and collaboration
+Next.js · React · Remotion · Zod · You.com · Deepgram · Band · Token Router
